@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183593FC1D8C3FFF00BF51A3 /* Feild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183593FB1D8C3FFF00BF51A3 /* Feild.swift */; settings = {ASSET_TAGS = (); }; };
+		183593FE1D8CDA1000BF51A3 /* Spin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183593FD1D8CDA1000BF51A3 /* Spin.swift */; settings = {ASSET_TAGS = (); }; };
+		183594201D8D713A00BF51A3 /* SideMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835941F1D8D713A00BF51A3 /* SideMenuButton.swift */; settings = {ASSET_TAGS = (); }; };
+		183594221D8D790800BF51A3 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183594211D8D790800BF51A3 /* SideMenuView.swift */; settings = {ASSET_TAGS = (); }; };
+		183594251D8E725D00BF51A3 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183594241D8E725D00BF51A3 /* Circle.swift */; settings = {ASSET_TAGS = (); }; };
+		183594281D8ECF8000BF51A3 /* LoadingHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183594271D8ECF8000BF51A3 /* LoadingHUD.swift */; settings = {ASSET_TAGS = (); }; };
+		1835942D1D922B7A00BF51A3 /* Array-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835942C1D922B7900BF51A3 /* Array-Extension.swift */; settings = {ASSET_TAGS = (); }; };
+		1835942F1D922F5E00BF51A3 /* CGPoint-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835942E1D922F5E00BF51A3 /* CGPoint-Extension.swift */; settings = {ASSET_TAGS = (); }; };
+		183594311D92652000BF51A3 /* CGRect-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183594301D92652000BF51A3 /* CGRect-Extension.swift */; settings = {ASSET_TAGS = (); }; };
+		183594331D9267EE00BF51A3 /* UtilityTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183594321D9267EE00BF51A3 /* UtilityTool.swift */; settings = {ASSET_TAGS = (); }; };
+		183594351D926ACF00BF51A3 /* NSColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183594341D926ACF00BF51A3 /* NSColor-Extension.swift */; settings = {ASSET_TAGS = (); }; };
+		183594371D926BFF00BF51A3 /* CircularGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183594361D926BFF00BF51A3 /* CircularGradientLayer.swift */; settings = {ASSET_TAGS = (); }; };
+		183594391D926DB700BF51A3 /* NSView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183594381D926DB700BF51A3 /* NSView-Extension.swift */; settings = {ASSET_TAGS = (); }; };
+		1835943B1D92726E00BF51A3 /* LiquidTableCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835943A1D92726E00BF51A3 /* LiquidTableCircle.swift */; settings = {ASSET_TAGS = (); }; };
+		1835943D1D92782300BF51A3 /* SimpleEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835943C1D92782300BF51A3 /* SimpleEngine.swift */; settings = {ASSET_TAGS = (); }; };
+		1835943F1D92800700BF51A3 /* LiquidLoadEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835943E1D92800700BF51A3 /* LiquidLoadEffect.swift */; settings = {ASSET_TAGS = (); }; };
+		183594411D92806F00BF51A3 /* LiquidLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183594401D92806F00BF51A3 /* LiquidLoad.swift */; settings = {ASSET_TAGS = (); }; };
+		183594431D92897D00BF51A3 /* LiquidCircleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183594421D92897D00BF51A3 /* LiquidCircleEffect.swift */; settings = {ASSET_TAGS = (); }; };
+		183594451D92899000BF51A3 /* LiquidLineEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183594441D92899000BF51A3 /* LiquidLineEffect.swift */; settings = {ASSET_TAGS = (); }; };
+		183594481D92D88A00BF51A3 /* NSColor-Extension1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183594471D92D88A00BF51A3 /* NSColor-Extension1.swift */; settings = {ASSET_TAGS = (); }; };
+		1835944A1D92D90500BF51A3 /* CALayer-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183594491D92D90500BF51A3 /* CALayer-Extension.swift */; settings = {ASSET_TAGS = (); }; };
+		1835944C1D92D95400BF51A3 /* TableCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835944B1D92D95400BF51A3 /* TableCircle.swift */; settings = {ASSET_TAGS = (); }; };
+		1835944E1D92DA9F00BF51A3 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835944D1D92DA9F00BF51A3 /* Engine.swift */; settings = {ASSET_TAGS = (); }; };
+		183594501D92DB7300BF51A3 /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835944F1D92DB7300BF51A3 /* FloatingActionButton.swift */; settings = {ASSET_TAGS = (); }; };
+		18835BF71D8820BE002E0DA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18835BF61D8820BE002E0DA8 /* AppDelegate.swift */; };
+		18835BF91D8820BE002E0DA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18835BF81D8820BE002E0DA8 /* ViewController.swift */; };
+		18835BFB1D8820BF002E0DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18835BFA1D8820BF002E0DA8 /* Assets.xcassets */; };
+		18835BFE1D8820BF002E0DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18835BFC1D8820BF002E0DA8 /* Main.storyboard */; };
+		18835C0A1D884BDC002E0DA8 /* MyCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18835C091D884BDC002E0DA8 /* MyCircleLayer.m */; settings = {ASSET_TAGS = (); }; };
+		18835C0D1D884C09002E0DA8 /* MyCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18835C0C1D884C09002E0DA8 /* MyCircleView.m */; settings = {ASSET_TAGS = (); }; };
+		18835C0F1D899688002E0DA8 /* CuteLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18835C0E1D899687002E0DA8 /* CuteLayer.swift */; settings = {ASSET_TAGS = (); }; };
+		18835C111D89969F002E0DA8 /* CuteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18835C101D89969F002E0DA8 /* CuteView.swift */; settings = {ASSET_TAGS = (); }; };
+		18835C191D8C39DA002E0DA8 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18835C181D8C39DA002E0DA8 /* Ball.swift */; settings = {ASSET_TAGS = (); }; };
+		18835C1B1D8C3A0B002E0DA8 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18835C1A1D8C3A0B002E0DA8 /* GLKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183593FB1D8C3FFF00BF51A3 /* Feild.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feild.swift; sourceTree = "<group>"; };
+		183593FD1D8CDA1000BF51A3 /* Spin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spin.swift; sourceTree = "<group>"; };
+		1835941F1D8D713A00BF51A3 /* SideMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuButton.swift; sourceTree = "<group>"; };
+		183594211D8D790800BF51A3 /* SideMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		183594241D8E725D00BF51A3 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		183594271D8ECF8000BF51A3 /* LoadingHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingHUD.swift; sourceTree = "<group>"; };
+		1835942C1D922B7900BF51A3 /* Array-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array-Extension.swift"; sourceTree = "<group>"; };
+		1835942E1D922F5E00BF51A3 /* CGPoint-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint-Extension.swift"; sourceTree = "<group>"; };
+		183594301D92652000BF51A3 /* CGRect-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect-Extension.swift"; sourceTree = "<group>"; };
+		183594321D9267EE00BF51A3 /* UtilityTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityTool.swift; sourceTree = "<group>"; };
+		183594341D926ACF00BF51A3 /* NSColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor-Extension.swift"; sourceTree = "<group>"; };
+		183594361D926BFF00BF51A3 /* CircularGradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularGradientLayer.swift; sourceTree = "<group>"; };
+		183594381D926DB700BF51A3 /* NSView-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSView-Extension.swift"; sourceTree = "<group>"; };
+		1835943A1D92726E00BF51A3 /* LiquidTableCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiquidTableCircle.swift; sourceTree = "<group>"; };
+		1835943C1D92782300BF51A3 /* SimpleEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleEngine.swift; sourceTree = "<group>"; };
+		1835943E1D92800700BF51A3 /* LiquidLoadEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiquidLoadEffect.swift; sourceTree = "<group>"; };
+		183594401D92806F00BF51A3 /* LiquidLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiquidLoad.swift; sourceTree = "<group>"; };
+		183594421D92897D00BF51A3 /* LiquidCircleEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiquidCircleEffect.swift; sourceTree = "<group>"; };
+		183594441D92899000BF51A3 /* LiquidLineEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiquidLineEffect.swift; sourceTree = "<group>"; };
+		183594471D92D88A00BF51A3 /* NSColor-Extension1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor-Extension1.swift"; sourceTree = "<group>"; };
+		183594491D92D90500BF51A3 /* CALayer-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer-Extension.swift"; sourceTree = "<group>"; };
+		1835944B1D92D95400BF51A3 /* TableCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCircle.swift; sourceTree = "<group>"; };
+		1835944D1D92DA9F00BF51A3 /* Engine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		1835944F1D92DB7300BF51A3 /* FloatingActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
+		18835BF31D8820BE002E0DA8 /* AnimationSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18835BF61D8820BE002E0DA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18835BF81D8820BE002E0DA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18835BFA1D8820BF002E0DA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18835BFD1D8820BF002E0DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18835BFF1D8820BF002E0DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18835C071D884BDB002E0DA8 /* AnimationSet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimationSet-Bridging-Header.h"; sourceTree = "<group>"; };
+		18835C081D884BDC002E0DA8 /* MyCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCircleLayer.h; sourceTree = "<group>"; };
+		18835C091D884BDC002E0DA8 /* MyCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCircleLayer.m; sourceTree = "<group>"; };
+		18835C0B1D884C09002E0DA8 /* MyCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCircleView.h; sourceTree = "<group>"; };
+		18835C0C1D884C09002E0DA8 /* MyCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCircleView.m; sourceTree = "<group>"; };
+		18835C0E1D899687002E0DA8 /* CuteLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuteLayer.swift; sourceTree = "<group>"; };
+		18835C101D89969F002E0DA8 /* CuteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuteView.swift; sourceTree = "<group>"; };
+		18835C181D8C39DA002E0DA8 /* Ball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		18835C1A1D8C3A0B002E0DA8 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18835BF01D8820BE002E0DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18835C1B1D8C3A0B002E0DA8 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1835941D1D8D6CA800BF51A3 /* animation1 */ = {
+			isa = PBXGroup;
+			children = (
+				18835C181D8C39DA002E0DA8 /* Ball.swift */,
+				183593FB1D8C3FFF00BF51A3 /* Feild.swift */,
+				183593FD1D8CDA1000BF51A3 /* Spin.swift */,
+				18835C0E1D899687002E0DA8 /* CuteLayer.swift */,
+				18835C101D89969F002E0DA8 /* CuteView.swift */,
+				18835C081D884BDC002E0DA8 /* MyCircleLayer.h */,
+				18835C091D884BDC002E0DA8 /* MyCircleLayer.m */,
+				18835C0B1D884C09002E0DA8 /* MyCircleView.h */,
+				18835C0C1D884C09002E0DA8 /* MyCircleView.m */,
+			);
+			name = animation1;
+			sourceTree = "<group>";
+		};
+		1835941E1D8D6CE100BF51A3 /* animation2 */ = {
+			isa = PBXGroup;
+			children = (
+				183594211D8D790800BF51A3 /* SideMenuView.swift */,
+				1835941F1D8D713A00BF51A3 /* SideMenuButton.swift */,
+			);
+			name = animation2;
+			sourceTree = "<group>";
+		};
+		183594231D8E723200BF51A3 /* animation3 */ = {
+			isa = PBXGroup;
+			children = (
+				183594241D8E725D00BF51A3 /* Circle.swift */,
+			);
+			name = animation3;
+			sourceTree = "<group>";
+		};
+		183594261D8ECDCD00BF51A3 /* animation4 */ = {
+			isa = PBXGroup;
+			children = (
+				183594271D8ECF8000BF51A3 /* LoadingHUD.swift */,
+			);
+			name = animation4;
+			sourceTree = "<group>";
+		};
+		1835942B1D90365500BF51A3 /* animation5 */ = {
+			isa = PBXGroup;
+			children = (
+				1835942C1D922B7900BF51A3 /* Array-Extension.swift */,
+				1835942E1D922F5E00BF51A3 /* CGPoint-Extension.swift */,
+				183594301D92652000BF51A3 /* CGRect-Extension.swift */,
+				183594341D926ACF00BF51A3 /* NSColor-Extension.swift */,
+				183594381D926DB700BF51A3 /* NSView-Extension.swift */,
+				183594321D9267EE00BF51A3 /* UtilityTool.swift */,
+				1835943A1D92726E00BF51A3 /* LiquidTableCircle.swift */,
+				183594361D926BFF00BF51A3 /* CircularGradientLayer.swift */,
+				1835943C1D92782300BF51A3 /* SimpleEngine.swift */,
+				1835943E1D92800700BF51A3 /* LiquidLoadEffect.swift */,
+				183594421D92897D00BF51A3 /* LiquidCircleEffect.swift */,
+				183594441D92899000BF51A3 /* LiquidLineEffect.swift */,
+				183594401D92806F00BF51A3 /* LiquidLoad.swift */,
+			);
+			name = animation5;
+			sourceTree = "<group>";
+		};
+		183594461D92D7A500BF51A3 /* animation6 */ = {
+			isa = PBXGroup;
+			children = (
+				183594471D92D88A00BF51A3 /* NSColor-Extension1.swift */,
+				183594491D92D90500BF51A3 /* CALayer-Extension.swift */,
+				1835944B1D92D95400BF51A3 /* TableCircle.swift */,
+				1835944D1D92DA9F00BF51A3 /* Engine.swift */,
+				1835944F1D92DB7300BF51A3 /* FloatingActionButton.swift */,
+			);
+			name = animation6;
+			sourceTree = "<group>";
+		};
+		18835BEA1D8820BC002E0DA8 = {
+			isa = PBXGroup;
+			children = (
+				18835C1A1D8C3A0B002E0DA8 /* GLKit.framework */,
+				18835BF51D8820BE002E0DA8 /* AnimationSet */,
+				18835BF41D8820BE002E0DA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18835BF41D8820BE002E0DA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18835BF31D8820BE002E0DA8 /* AnimationSet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18835BF51D8820BE002E0DA8 /* AnimationSet */ = {
+			isa = PBXGroup;
+			children = (
+				18835BF61D8820BE002E0DA8 /* AppDelegate.swift */,
+				18835BF81D8820BE002E0DA8 /* ViewController.swift */,
+				183594461D92D7A500BF51A3 /* animation6 */,
+				1835942B1D90365500BF51A3 /* animation5 */,
+				183594261D8ECDCD00BF51A3 /* animation4 */,
+				183594231D8E723200BF51A3 /* animation3 */,
+				1835941E1D8D6CE100BF51A3 /* animation2 */,
+				1835941D1D8D6CA800BF51A3 /* animation1 */,
+				18835BFA1D8820BF002E0DA8 /* Assets.xcassets */,
+				18835BFC1D8820BF002E0DA8 /* Main.storyboard */,
+				18835BFF1D8820BF002E0DA8 /* Info.plist */,
+				18835C071D884BDB002E0DA8 /* AnimationSet-Bridging-Header.h */,
+			);
+			path = AnimationSet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18835BF21D8820BE002E0DA8 /* AnimationSet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18835C021D8820BF002E0DA8 /* Build configuration list for PBXNativeTarget "AnimationSet" */;
+			buildPhases = (
+				18835BEF1D8820BE002E0DA8 /* Sources */,
+				18835BF01D8820BE002E0DA8 /* Frameworks */,
+				18835BF11D8820BE002E0DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationSet;
+			productName = AnimationSet;
+			productReference = 18835BF31D8820BE002E0DA8 /* AnimationSet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18835BEB1D8820BD002E0DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18835BF21D8820BE002E0DA8 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 18835BEE1D8820BD002E0DA8 /* Build configuration list for PBXProject "AnimationSet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18835BEA1D8820BC002E0DA8;
+			productRefGroup = 18835BF41D8820BE002E0DA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18835BF21D8820BE002E0DA8 /* AnimationSet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18835BF11D8820BE002E0DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18835BFB1D8820BF002E0DA8 /* Assets.xcassets in Resources */,
+				18835BFE1D8820BF002E0DA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18835BEF1D8820BE002E0DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1835942F1D922F5E00BF51A3 /* CGPoint-Extension.swift in Sources */,
+				1835944C1D92D95400BF51A3 /* TableCircle.swift in Sources */,
+				183594331D9267EE00BF51A3 /* UtilityTool.swift in Sources */,
+				1835943F1D92800700BF51A3 /* LiquidLoadEffect.swift in Sources */,
+				183594501D92DB7300BF51A3 /* FloatingActionButton.swift in Sources */,
+				183594481D92D88A00BF51A3 /* NSColor-Extension1.swift in Sources */,
+				18835C0F1D899688002E0DA8 /* CuteLayer.swift in Sources */,
+				183594391D926DB700BF51A3 /* NSView-Extension.swift in Sources */,
+				18835C0D1D884C09002E0DA8 /* MyCircleView.m in Sources */,
+				183594311D92652000BF51A3 /* CGRect-Extension.swift in Sources */,
+				183593FC1D8C3FFF00BF51A3 /* Feild.swift in Sources */,
+				18835C191D8C39DA002E0DA8 /* Ball.swift in Sources */,
+				183594221D8D790800BF51A3 /* SideMenuView.swift in Sources */,
+				1835943D1D92782300BF51A3 /* SimpleEngine.swift in Sources */,
+				183594431D92897D00BF51A3 /* LiquidCircleEffect.swift in Sources */,
+				183594451D92899000BF51A3 /* LiquidLineEffect.swift in Sources */,
+				183594411D92806F00BF51A3 /* LiquidLoad.swift in Sources */,
+				183594251D8E725D00BF51A3 /* Circle.swift in Sources */,
+				183594371D926BFF00BF51A3 /* CircularGradientLayer.swift in Sources */,
+				18835C0A1D884BDC002E0DA8 /* MyCircleLayer.m in Sources */,
+				1835944E1D92DA9F00BF51A3 /* Engine.swift in Sources */,
+				183594281D8ECF8000BF51A3 /* LoadingHUD.swift in Sources */,
+				183593FE1D8CDA1000BF51A3 /* Spin.swift in Sources */,
+				1835943B1D92726E00BF51A3 /* LiquidTableCircle.swift in Sources */,
+				1835944A1D92D90500BF51A3 /* CALayer-Extension.swift in Sources */,
+				183594351D926ACF00BF51A3 /* NSColor-Extension.swift in Sources */,
+				1835942D1D922B7A00BF51A3 /* Array-Extension.swift in Sources */,
+				18835C111D89969F002E0DA8 /* CuteView.swift in Sources */,
+				18835BF91D8820BE002E0DA8 /* ViewController.swift in Sources */,
+				18835BF71D8820BE002E0DA8 /* AppDelegate.swift in Sources */,
+				183594201D8D713A00BF51A3 /* SideMenuButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18835BFC1D8820BF002E0DA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18835BFD1D8820BF002E0DA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18835C001D8820BF002E0DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18835C011D8820BF002E0DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18835C031D8820BF002E0DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AnimationSet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = My.AnimationSet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AnimationSet/AnimationSet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18835C041D8820BF002E0DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AnimationSet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = My.AnimationSet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AnimationSet/AnimationSet-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18835BEE1D8820BD002E0DA8 /* Build configuration list for PBXProject "AnimationSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18835C001D8820BF002E0DA8 /* Debug */,
+				18835C011D8820BF002E0DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18835C021D8820BF002E0DA8 /* Build configuration list for PBXNativeTarget "AnimationSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18835C031D8820BF002E0DA8 /* Debug */,
+				18835C041D8820BF002E0DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18835BEB1D8820BD002E0DA8 /* Project object */;
+}
