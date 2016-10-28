@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="CustomAlert" customModule="cehi" customModuleProvider="target">
+            <connections>
+                <outlet property="CancelButton" destination="gA5-IS-Vrc" id="V3d-OE-epA"/>
+                <outlet property="OKButton" destination="hdT-d8-bBA" id="lnk-QQ-zPB"/>
+                <outlet property="icon" destination="u94-kt-PTK" id="dBI-jV-GGj"/>
+                <outlet property="infoTitle" destination="9D4-rF-ao8" id="fa7-a2-uee"/>
+                <outlet property="messageTitle" destination="2UA-ss-Zf7" id="GQR-4B-Rtw"/>
+                <outlet property="window" destination="QvC-M9-y7g" id="S5G-rU-tc4"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="403" height="166"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <view key="contentView" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="403" height="166"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u94-kt-PTK">
+                        <rect key="frame" x="25" y="87" width="48" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="48" id="Cmk-P2-PLa"/>
+                            <constraint firstAttribute="height" constant="48" id="TSg-Yi-Fxe"/>
+                        </constraints>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSUser" id="keB-Ok-UPR"/>
+                    </imageView>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2UA-ss-Zf7">
+                        <rect key="frame" x="79" y="129" width="37" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="33" id="HNw-rh-Rue"/>
+                            <constraint firstAttribute="height" constant="17" id="Vwu-cd-r6N"/>
+                        </constraints>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="测试" id="r9l-8t-Z2d">
+                            <font key="font" size="13" name=".PingFangSC-Regular"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9D4-rF-ao8">
+                        <rect key="frame" x="81" y="100" width="276" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="AMa-cz-joe"/>
+                            <constraint firstAttribute="width" constant="272" id="USy-Q5-aGl"/>
+                        </constraints>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" title="测得侧窗" allowsEditingTextAttributes="YES" id="8QP-hO-TII">
+                            <font key="font" size="13" name="MicrosoftYaHei"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" tag="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gA5-IS-Vrc">
+                        <rect key="frame" x="232" y="14" width="82" height="32"/>
+                        <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="tVa-kP-O1j">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                        </buttonCell>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" tag="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hdT-d8-bBA">
+                        <rect key="frame" x="314" y="14" width="81" height="32"/>
+                        <buttonCell key="cell" type="push" title="OK" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="FNN-gx-UuM">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                        </buttonCell>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2UA-ss-Zf7" firstAttribute="leading" secondItem="u94-kt-PTK" secondAttribute="trailing" constant="8" id="72C-Pi-x9Q"/>
+                    <constraint firstItem="2UA-ss-Zf7" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="20" id="7bE-0O-78x"/>
+                    <constraint firstItem="u94-kt-PTK" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="25" id="Iaa-Kj-oAo"/>
+                    <constraint firstItem="u94-kt-PTK" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="31" id="LqQ-cg-LjC"/>
+                    <constraint firstItem="9D4-rF-ao8" firstAttribute="leading" secondItem="u94-kt-PTK" secondAttribute="trailing" constant="10" id="iHv-H5-hSU"/>
+                    <constraint firstItem="9D4-rF-ao8" firstAttribute="top" secondItem="2UA-ss-Zf7" secondAttribute="bottom" constant="8" id="z2Q-6A-cVY"/>
+                </constraints>
+            </view>
+            <point key="canvasLocation" x="307.5" y="256"/>
+        </window>
+    </objects>
+    <resources>
+        <image name="NSUser" width="32" height="32"/>
+    </resources>
+</document>
