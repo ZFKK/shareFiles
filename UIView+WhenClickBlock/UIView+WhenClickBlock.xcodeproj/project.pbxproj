@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1AB15631DCB816400151D44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AB15621DCB816400151D44 /* main.m */; };
+		B1AB15661DCB816400151D44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AB15651DCB816400151D44 /* AppDelegate.m */; };
+		B1AB15691DCB816400151D44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AB15681DCB816400151D44 /* ViewController.m */; };
+		B1AB156C1DCB816400151D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AB156A1DCB816400151D44 /* Main.storyboard */; };
+		B1AB156E1DCB816400151D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AB156D1DCB816400151D44 /* Assets.xcassets */; };
+		B1AB15711DCB816400151D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AB156F1DCB816400151D44 /* LaunchScreen.storyboard */; };
+		B1AB157A1DCB825000151D44 /* UIView+TappedBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AB15791DCB825000151D44 /* UIView+TappedBlocks.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1AB155E1DCB816400151D44 /* UIView+WhenClickBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIView+WhenClickBlock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1AB15621DCB816400151D44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1AB15641DCB816400151D44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1AB15651DCB816400151D44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1AB15671DCB816400151D44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1AB15681DCB816400151D44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1AB156B1DCB816400151D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1AB156D1DCB816400151D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1AB15701DCB816400151D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1AB15721DCB816400151D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1AB15781DCB825000151D44 /* UIView+TappedBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TappedBlocks.h"; sourceTree = "<group>"; };
+		B1AB15791DCB825000151D44 /* UIView+TappedBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TappedBlocks.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1AB155B1DCB816400151D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1AB15551DCB816400151D44 = {
+			isa = PBXGroup;
+			children = (
+				B1AB15601DCB816400151D44 /* UIView+WhenClickBlock */,
+				B1AB155F1DCB816400151D44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1AB155F1DCB816400151D44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1AB155E1DCB816400151D44 /* UIView+WhenClickBlock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1AB15601DCB816400151D44 /* UIView+WhenClickBlock */ = {
+			isa = PBXGroup;
+			children = (
+				B1AB15641DCB816400151D44 /* AppDelegate.h */,
+				B1AB15651DCB816400151D44 /* AppDelegate.m */,
+				B1AB15671DCB816400151D44 /* ViewController.h */,
+				B1AB15681DCB816400151D44 /* ViewController.m */,
+				B1AB15781DCB825000151D44 /* UIView+TappedBlocks.h */,
+				B1AB15791DCB825000151D44 /* UIView+TappedBlocks.m */,
+				B1AB156A1DCB816400151D44 /* Main.storyboard */,
+				B1AB156D1DCB816400151D44 /* Assets.xcassets */,
+				B1AB156F1DCB816400151D44 /* LaunchScreen.storyboard */,
+				B1AB15721DCB816400151D44 /* Info.plist */,
+				B1AB15611DCB816400151D44 /* Supporting Files */,
+			);
+			path = "UIView+WhenClickBlock";
+			sourceTree = "<group>";
+		};
+		B1AB15611DCB816400151D44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1AB15621DCB816400151D44 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1AB155D1DCB816400151D44 /* UIView+WhenClickBlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1AB15751DCB816400151D44 /* Build configuration list for PBXNativeTarget "UIView+WhenClickBlock" */;
+			buildPhases = (
+				B1AB155A1DCB816400151D44 /* Sources */,
+				B1AB155B1DCB816400151D44 /* Frameworks */,
+				B1AB155C1DCB816400151D44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIView+WhenClickBlock";
+			productName = "UIView+WhenClickBlock";
+			productReference = B1AB155E1DCB816400151D44 /* UIView+WhenClickBlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1AB15561DCB816400151D44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = imo;
+				TargetAttributes = {
+					B1AB155D1DCB816400151D44 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B1AB15591DCB816400151D44 /* Build configuration list for PBXProject "UIView+WhenClickBlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1AB15551DCB816400151D44;
+			productRefGroup = B1AB155F1DCB816400151D44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1AB155D1DCB816400151D44 /* UIView+WhenClickBlock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1AB155C1DCB816400151D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AB15711DCB816400151D44 /* LaunchScreen.storyboard in Resources */,
+				B1AB156E1DCB816400151D44 /* Assets.xcassets in Resources */,
+				B1AB156C1DCB816400151D44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1AB155A1DCB816400151D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AB157A1DCB825000151D44 /* UIView+TappedBlocks.m in Sources */,
+				B1AB15691DCB816400151D44 /* ViewController.m in Sources */,
+				B1AB15661DCB816400151D44 /* AppDelegate.m in Sources */,
+				B1AB15631DCB816400151D44 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1AB156A1DCB816400151D44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1AB156B1DCB816400151D44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1AB156F1DCB816400151D44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1AB15701DCB816400151D44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1AB15731DCB816400151D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1AB15741DCB816400151D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1AB15761DCB816400151D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIView+WhenClickBlock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imo.UIView-WhenClickBlock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1AB15771DCB816400151D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIView+WhenClickBlock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imo.UIView-WhenClickBlock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1AB15591DCB816400151D44 /* Build configuration list for PBXProject "UIView+WhenClickBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1AB15731DCB816400151D44 /* Debug */,
+				B1AB15741DCB816400151D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1AB15751DCB816400151D44 /* Build configuration list for PBXNativeTarget "UIView+WhenClickBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1AB15761DCB816400151D44 /* Debug */,
+				B1AB15771DCB816400151D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1AB15561DCB816400151D44 /* Project object */;
+}
