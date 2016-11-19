@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1D414221DD767DD00DEA448 /* Ceshi+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D4141F1DD767DD00DEA448 /* Ceshi+CoreDataProperties.m */; };
+		B1D414231DD767DD00DEA448 /* Ceshi.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D414211DD767DD00DEA448 /* Ceshi.m */; };
+		B1E7EC331DD7438A00FF7B98 /* Man+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E7EC301DD7438A00FF7B98 /* Man+CoreDataProperties.m */; };
+		B1E7EC341DD7438A00FF7B98 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E7EC321DD7438A00FF7B98 /* Man.m */; };
 		BC564EA81BF02C7A0086D83D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC564EA71BF02C7A0086D83D /* main.m */; };
 		BC564EAB1BF02C7A0086D83D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC564EAA1BF02C7A0086D83D /* AppDelegate.m */; };
 		BC564EB11BF02C7A0086D83D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC564EB01BF02C7A0086D83D /* ViewController.m */; };
@@ -30,6 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B1D4141E1DD767DD00DEA448 /* Ceshi+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ceshi+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B1D4141F1DD767DD00DEA448 /* Ceshi+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Ceshi+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B1D414201DD767DD00DEA448 /* Ceshi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ceshi.h; sourceTree = "<group>"; };
+		B1D414211DD767DD00DEA448 /* Ceshi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ceshi.m; sourceTree = "<group>"; };
+		B1E7EC2F1DD7438A00FF7B98 /* Man+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Man+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B1E7EC301DD7438A00FF7B98 /* Man+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Man+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B1E7EC311DD7438A00FF7B98 /* Man.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		B1E7EC321DD7438A00FF7B98 /* Man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
 		BC564EA21BF02C7A0086D83D /* 01_CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 01_CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC564EA61BF02C7A0086D83D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC564EA71BF02C7A0086D83D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -71,6 +83,14 @@
 		BC564E991BF02C7A0086D83D = {
 			isa = PBXGroup;
 			children = (
+				B1D4141E1DD767DD00DEA448 /* Ceshi+CoreDataProperties.h */,
+				B1D4141F1DD767DD00DEA448 /* Ceshi+CoreDataProperties.m */,
+				B1D414201DD767DD00DEA448 /* Ceshi.h */,
+				B1D414211DD767DD00DEA448 /* Ceshi.m */,
+				B1E7EC2F1DD7438A00FF7B98 /* Man+CoreDataProperties.h */,
+				B1E7EC301DD7438A00FF7B98 /* Man+CoreDataProperties.m */,
+				B1E7EC311DD7438A00FF7B98 /* Man.h */,
+				B1E7EC321DD7438A00FF7B98 /* Man.m */,
 				BC564EA41BF02C7A0086D83D /* 01_CoreData */,
 				BC564EC11BF02C7B0086D83D /* 01_CoreDataTests */,
 				BC564EA31BF02C7A0086D83D /* Products */,
@@ -232,9 +252,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E7EC331DD7438A00FF7B98 /* Man+CoreDataProperties.m in Sources */,
+				B1D414221DD767DD00DEA448 /* Ceshi+CoreDataProperties.m in Sources */,
+				B1D414231DD767DD00DEA448 /* Ceshi.m in Sources */,
 				BC564ED61BF02E230086D83D /* Person.m in Sources */,
 				BC564EAB1BF02C7A0086D83D /* AppDelegate.m in Sources */,
 				BC564ED01BF02CC90086D83D /* Model.xcdatamodeld in Sources */,
+				B1E7EC341DD7438A00FF7B98 /* Man.m in Sources */,
 				BC564EB11BF02C7A0086D83D /* ViewController.m in Sources */,
 				BC564ED31BF02DDB0086D83D /* Person1.m in Sources */,
 				BC564EA81BF02C7A0086D83D /* main.m in Sources */,
@@ -434,6 +458,7 @@
 				BC564ECA1BF02C7B0086D83D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC564ECB1BF02C7B0086D83D /* Build configuration list for PBXNativeTarget "01_CoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +467,7 @@
 				BC564ECD1BF02C7B0086D83D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
