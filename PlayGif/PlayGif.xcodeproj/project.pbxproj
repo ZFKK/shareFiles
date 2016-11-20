@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046CB884B98C7D7C8A9718D4 /* libPods-PlayGif.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7799A2637731D66BF749F4 /* libPods-PlayGif.a */; };
+		6C03EF455829AB923D6D4C7A /* libPods-PlayGifTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E715DE839A436AB4FAEC40B7 /* libPods-PlayGifTests.a */; };
+		B13A09A41DE150EC00700DE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A09A31DE150EC00700DE6 /* main.m */; };
+		B13A09A71DE150EC00700DE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A09A61DE150EC00700DE6 /* AppDelegate.m */; };
+		B13A09AA1DE150EC00700DE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A09A91DE150EC00700DE6 /* ViewController.m */; };
+		B13A09AD1DE150EC00700DE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13A09AB1DE150EC00700DE6 /* Main.storyboard */; };
+		B13A09AF1DE150EC00700DE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13A09AE1DE150EC00700DE6 /* Assets.xcassets */; };
+		B13A09B21DE150EC00700DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13A09B01DE150EC00700DE6 /* LaunchScreen.storyboard */; };
+		B13A09BD1DE150ED00700DE6 /* PlayGifTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A09BC1DE150ED00700DE6 /* PlayGifTests.m */; };
+		B13A09C81DE150ED00700DE6 /* PlayGifUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A09C71DE150ED00700DE6 /* PlayGifUITests.m */; };
+		B13A09D61DE1778F00700DE6 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = B13A09D51DE1778F00700DE6 /* 1.gif */; };
+		B13A09D81DE17C5600700DE6 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = B13A09D71DE17C5600700DE6 /* 2.gif */; };
+		B13A09DB1DE17E4100700DE6 /* GifCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A09DA1DE17E4100700DE6 /* GifCell.m */; };
+		E605B2BEE4C563BEF365F498 /* libPods-PlayGifUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BD0F58B14E01DB1FD011D6 /* libPods-PlayGifUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B13A09B91DE150ED00700DE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B13A09971DE150EC00700DE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B13A099E1DE150EC00700DE6;
+			remoteInfo = PlayGif;
+		};
+		B13A09C41DE150ED00700DE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B13A09971DE150EC00700DE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B13A099E1DE150EC00700DE6;
+			remoteInfo = PlayGif;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AA17AFD358748B932435C22 /* Pods-PlayGifTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGifTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayGifTests/Pods-PlayGifTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85463E195A9E4F9DB9134515 /* Pods-PlayGifTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGifTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayGifTests/Pods-PlayGifTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E7799A2637731D66BF749F4 /* libPods-PlayGif.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlayGif.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9030B19539A11DC84C28FE22 /* Pods-PlayGifUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGifUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayGifUITests/Pods-PlayGifUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3C4CD35F73C81DB3490D229 /* Pods-PlayGif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGif.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayGif/Pods-PlayGif.debug.xcconfig"; sourceTree = "<group>"; };
+		B13A099F1DE150EC00700DE6 /* PlayGif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayGif.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13A09A31DE150EC00700DE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B13A09A51DE150EC00700DE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B13A09A61DE150EC00700DE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B13A09A81DE150EC00700DE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B13A09A91DE150EC00700DE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B13A09AC1DE150EC00700DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B13A09AE1DE150EC00700DE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B13A09B11DE150EC00700DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B13A09B31DE150EC00700DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13A09B81DE150ED00700DE6 /* PlayGifTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayGifTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13A09BC1DE150ED00700DE6 /* PlayGifTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayGifTests.m; sourceTree = "<group>"; };
+		B13A09BE1DE150ED00700DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13A09C31DE150ED00700DE6 /* PlayGifUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayGifUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13A09C71DE150ED00700DE6 /* PlayGifUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayGifUITests.m; sourceTree = "<group>"; };
+		B13A09C91DE150ED00700DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13A09D51DE1778F00700DE6 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		B13A09D71DE17C5600700DE6 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		B13A09D91DE17E4100700DE6 /* GifCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifCell.h; sourceTree = "<group>"; };
+		B13A09DA1DE17E4100700DE6 /* GifCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifCell.m; sourceTree = "<group>"; };
+		D41CFE0785B5343B8783B267 /* Pods-PlayGifUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGifUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayGifUITests/Pods-PlayGifUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D9248D15A1D06D58B80AA4D9 /* Pods-PlayGif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGif.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayGif/Pods-PlayGif.release.xcconfig"; sourceTree = "<group>"; };
+		E3BD0F58B14E01DB1FD011D6 /* libPods-PlayGifUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlayGifUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E715DE839A436AB4FAEC40B7 /* libPods-PlayGifTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlayGifTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B13A099C1DE150EC00700DE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046CB884B98C7D7C8A9718D4 /* libPods-PlayGif.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A09B51DE150ED00700DE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C03EF455829AB923D6D4C7A /* libPods-PlayGifTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A09C01DE150ED00700DE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E605B2BEE4C563BEF365F498 /* libPods-PlayGifUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BC6B16F1B913CB37FD57109 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3C4CD35F73C81DB3490D229 /* Pods-PlayGif.debug.xcconfig */,
+				D9248D15A1D06D58B80AA4D9 /* Pods-PlayGif.release.xcconfig */,
+				3AA17AFD358748B932435C22 /* Pods-PlayGifTests.debug.xcconfig */,
+				85463E195A9E4F9DB9134515 /* Pods-PlayGifTests.release.xcconfig */,
+				9030B19539A11DC84C28FE22 /* Pods-PlayGifUITests.debug.xcconfig */,
+				D41CFE0785B5343B8783B267 /* Pods-PlayGifUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7FC84B88AC40BECADAB0D0B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E7799A2637731D66BF749F4 /* libPods-PlayGif.a */,
+				E715DE839A436AB4FAEC40B7 /* libPods-PlayGifTests.a */,
+				E3BD0F58B14E01DB1FD011D6 /* libPods-PlayGifUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B13A09961DE150EC00700DE6 = {
+			isa = PBXGroup;
+			children = (
+				B13A09A11DE150EC00700DE6 /* PlayGif */,
+				B13A09BB1DE150ED00700DE6 /* PlayGifTests */,
+				B13A09C61DE150ED00700DE6 /* PlayGifUITests */,
+				B13A09A01DE150EC00700DE6 /* Products */,
+				1BC6B16F1B913CB37FD57109 /* Pods */,
+				7FC84B88AC40BECADAB0D0B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B13A09A01DE150EC00700DE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B13A099F1DE150EC00700DE6 /* PlayGif.app */,
+				B13A09B81DE150ED00700DE6 /* PlayGifTests.xctest */,
+				B13A09C31DE150ED00700DE6 /* PlayGifUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B13A09A11DE150EC00700DE6 /* PlayGif */ = {
+			isa = PBXGroup;
+			children = (
+				B13A09A51DE150EC00700DE6 /* AppDelegate.h */,
+				B13A09A61DE150EC00700DE6 /* AppDelegate.m */,
+				B13A09A81DE150EC00700DE6 /* ViewController.h */,
+				B13A09A91DE150EC00700DE6 /* ViewController.m */,
+				B13A09D91DE17E4100700DE6 /* GifCell.h */,
+				B13A09DA1DE17E4100700DE6 /* GifCell.m */,
+				B13A09AB1DE150EC00700DE6 /* Main.storyboard */,
+				B13A09AE1DE150EC00700DE6 /* Assets.xcassets */,
+				B13A09B01DE150EC00700DE6 /* LaunchScreen.storyboard */,
+				B13A09B31DE150EC00700DE6 /* Info.plist */,
+				B13A09D51DE1778F00700DE6 /* 1.gif */,
+				B13A09D71DE17C5600700DE6 /* 2.gif */,
+				B13A09A21DE150EC00700DE6 /* Supporting Files */,
+			);
+			path = PlayGif;
+			sourceTree = "<group>";
+		};
+		B13A09A21DE150EC00700DE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B13A09A31DE150EC00700DE6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B13A09BB1DE150ED00700DE6 /* PlayGifTests */ = {
+			isa = PBXGroup;
+			children = (
+				B13A09BC1DE150ED00700DE6 /* PlayGifTests.m */,
+				B13A09BE1DE150ED00700DE6 /* Info.plist */,
+			);
+			path = PlayGifTests;
+			sourceTree = "<group>";
+		};
+		B13A09C61DE150ED00700DE6 /* PlayGifUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B13A09C71DE150ED00700DE6 /* PlayGifUITests.m */,
+				B13A09C91DE150ED00700DE6 /* Info.plist */,
+			);
+			path = PlayGifUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B13A099E1DE150EC00700DE6 /* PlayGif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13A09CC1DE150ED00700DE6 /* Build configuration list for PBXNativeTarget "PlayGif" */;
+			buildPhases = (
+				C5DDDEEBBC988697092064C5 /* [CP] Check Pods Manifest.lock */,
+				B13A099B1DE150EC00700DE6 /* Sources */,
+				B13A099C1DE150EC00700DE6 /* Frameworks */,
+				B13A099D1DE150EC00700DE6 /* Resources */,
+				708457E3A1B4ED5334675F47 /* [CP] Embed Pods Frameworks */,
+				2244473FAFFDD48FC338D076 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayGif;
+			productName = PlayGif;
+			productReference = B13A099F1DE150EC00700DE6 /* PlayGif.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B13A09B71DE150ED00700DE6 /* PlayGifTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13A09CF1DE150ED00700DE6 /* Build configuration list for PBXNativeTarget "PlayGifTests" */;
+			buildPhases = (
+				57AF641B41FF2B74992C87A9 /* [CP] Check Pods Manifest.lock */,
+				B13A09B41DE150ED00700DE6 /* Sources */,
+				B13A09B51DE150ED00700DE6 /* Frameworks */,
+				B13A09B61DE150ED00700DE6 /* Resources */,
+				9B73AABA05C80859EBA5B0D3 /* [CP] Embed Pods Frameworks */,
+				0CFF1DBDCC96DED237A6EC0C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B13A09BA1DE150ED00700DE6 /* PBXTargetDependency */,
+			);
+			name = PlayGifTests;
+			productName = PlayGifTests;
+			productReference = B13A09B81DE150ED00700DE6 /* PlayGifTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B13A09C21DE150ED00700DE6 /* PlayGifUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13A09D21DE150ED00700DE6 /* Build configuration list for PBXNativeTarget "PlayGifUITests" */;
+			buildPhases = (
+				BB037B2E8D373F8851330273 /* [CP] Check Pods Manifest.lock */,
+				B13A09BF1DE150ED00700DE6 /* Sources */,
+				B13A09C01DE150ED00700DE6 /* Frameworks */,
+				B13A09C11DE150ED00700DE6 /* Resources */,
+				4BC95ABBFCA8C3117F86675F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B13A09C51DE150ED00700DE6 /* PBXTargetDependency */,
+			);
+			name = PlayGifUITests;
+			productName = PlayGifUITests;
+			productReference = B13A09C31DE150ED00700DE6 /* PlayGifUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B13A09971DE150EC00700DE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = imo;
+				TargetAttributes = {
+					B13A099E1DE150EC00700DE6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B13A09B71DE150ED00700DE6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B13A099E1DE150EC00700DE6;
+					};
+					B13A09C21DE150ED00700DE6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B13A099E1DE150EC00700DE6;
+					};
+				};
+			};
+			buildConfigurationList = B13A099A1DE150EC00700DE6 /* Build configuration list for PBXProject "PlayGif" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B13A09961DE150EC00700DE6;
+			productRefGroup = B13A09A01DE150EC00700DE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B13A099E1DE150EC00700DE6 /* PlayGif */,
+				B13A09B71DE150ED00700DE6 /* PlayGifTests */,
+				B13A09C21DE150ED00700DE6 /* PlayGifUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B13A099D1DE150EC00700DE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13A09B21DE150EC00700DE6 /* LaunchScreen.storyboard in Resources */,
+				B13A09D81DE17C5600700DE6 /* 2.gif in Resources */,
+				B13A09AF1DE150EC00700DE6 /* Assets.xcassets in Resources */,
+				B13A09D61DE1778F00700DE6 /* 1.gif in Resources */,
+				B13A09AD1DE150EC00700DE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A09B61DE150ED00700DE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A09C11DE150ED00700DE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CFF1DBDCC96DED237A6EC0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayGifTests/Pods-PlayGifTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2244473FAFFDD48FC338D076 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayGif/Pods-PlayGif-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BC95ABBFCA8C3117F86675F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayGifUITests/Pods-PlayGifUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57AF641B41FF2B74992C87A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		708457E3A1B4ED5334675F47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayGif/Pods-PlayGif-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B73AABA05C80859EBA5B0D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayGifTests/Pods-PlayGifTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB037B2E8D373F8851330273 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5DDDEEBBC988697092064C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B13A099B1DE150EC00700DE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13A09AA1DE150EC00700DE6 /* ViewController.m in Sources */,
+				B13A09A71DE150EC00700DE6 /* AppDelegate.m in Sources */,
+				B13A09DB1DE17E4100700DE6 /* GifCell.m in Sources */,
+				B13A09A41DE150EC00700DE6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A09B41DE150ED00700DE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13A09BD1DE150ED00700DE6 /* PlayGifTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A09BF1DE150ED00700DE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13A09C81DE150ED00700DE6 /* PlayGifUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B13A09BA1DE150ED00700DE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B13A099E1DE150EC00700DE6 /* PlayGif */;
+			targetProxy = B13A09B91DE150ED00700DE6 /* PBXContainerItemProxy */;
+		};
+		B13A09C51DE150ED00700DE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B13A099E1DE150EC00700DE6 /* PlayGif */;
+			targetProxy = B13A09C41DE150ED00700DE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B13A09AB1DE150EC00700DE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B13A09AC1DE150EC00700DE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B13A09B01DE150EC00700DE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B13A09B11DE150EC00700DE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B13A09CA1DE150ED00700DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B13A09CB1DE150ED00700DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B13A09CD1DE150ED00700DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C4CD35F73C81DB3490D229 /* Pods-PlayGif.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayGif/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imo.PlayGif;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B13A09CE1DE150ED00700DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9248D15A1D06D58B80AA4D9 /* Pods-PlayGif.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayGif/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imo.PlayGif;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B13A09D01DE150ED00700DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA17AFD358748B932435C22 /* Pods-PlayGifTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlayGifTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imo.PlayGifTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayGif.app/PlayGif";
+			};
+			name = Debug;
+		};
+		B13A09D11DE150ED00700DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85463E195A9E4F9DB9134515 /* Pods-PlayGifTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlayGifTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imo.PlayGifTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayGif.app/PlayGif";
+			};
+			name = Release;
+		};
+		B13A09D31DE150ED00700DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9030B19539A11DC84C28FE22 /* Pods-PlayGifUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PlayGifUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imo.PlayGifUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlayGif;
+			};
+			name = Debug;
+		};
+		B13A09D41DE150ED00700DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41CFE0785B5343B8783B267 /* Pods-PlayGifUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PlayGifUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imo.PlayGifUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlayGif;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B13A099A1DE150EC00700DE6 /* Build configuration list for PBXProject "PlayGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13A09CA1DE150ED00700DE6 /* Debug */,
+				B13A09CB1DE150ED00700DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13A09CC1DE150ED00700DE6 /* Build configuration list for PBXNativeTarget "PlayGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13A09CD1DE150ED00700DE6 /* Debug */,
+				B13A09CE1DE150ED00700DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13A09CF1DE150ED00700DE6 /* Build configuration list for PBXNativeTarget "PlayGifTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13A09D01DE150ED00700DE6 /* Debug */,
+				B13A09D11DE150ED00700DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13A09D21DE150ED00700DE6 /* Build configuration list for PBXNativeTarget "PlayGifUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13A09D31DE150ED00700DE6 /* Debug */,
+				B13A09D41DE150ED00700DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B13A09971DE150EC00700DE6 /* Project object */;
+}
