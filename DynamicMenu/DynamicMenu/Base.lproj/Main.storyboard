@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NCB-SQ-iGh">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6vC-Ek-XHN">
+                                <rect key="frame" x="285" y="295" width="30" height="30"/>
+                                <state key="normal" title="增加"/>
+                                <connections>
+                                    <action selector="AddMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nbp-gd-f5s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJL-i1-lwU">
+                                <rect key="frame" x="285" y="365" width="30" height="30"/>
+                                <state key="normal" title="恢复"/>
+                                <connections>
+                                    <action selector="RecoveMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zcx-dT-ziO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6vC-Ek-XHN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3FA-oZ-bWn"/>
+                            <constraint firstItem="WJL-i1-lwU" firstAttribute="height" secondItem="6vC-Ek-XHN" secondAttribute="height" id="NB4-xy-cqO"/>
+                            <constraint firstItem="WJL-i1-lwU" firstAttribute="top" secondItem="6vC-Ek-XHN" secondAttribute="bottom" constant="40" id="TXw-33-g8u"/>
+                            <constraint firstItem="WJL-i1-lwU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YXi-tD-M6F"/>
+                            <constraint firstItem="6vC-Ek-XHN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="10" id="hAP-xj-uHm"/>
+                            <constraint firstItem="WJL-i1-lwU" firstAttribute="width" secondItem="6vC-Ek-XHN" secondAttribute="width" id="ptx-xE-Btl"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="CBT-ip-gHD"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="lx5-TA-fhC">
+                        <barButtonItem key="rightBarButtonItem" title="菜单" id="9ru-Z1-2FS">
+                            <connections>
+                                <action selector="popMenu:" destination="BYZ-38-t0r" id="B5i-ix-5by"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="943" y="321"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GIf-SI-eSS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NCB-SQ-iGh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5c7-PR-vCo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="5m8-tS-8bH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P7s-lK-a1X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="259" y="258"/>
+        </scene>
+    </scenes>
+</document>
