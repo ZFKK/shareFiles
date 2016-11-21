@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55A7A13B16043CAC2141A32D /* libPods-ScaleTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0F3CDD562AD25308F8DCA0 /* libPods-ScaleTableView.a */; };
+		658BF199A85EFBED4AD14110 /* libPods-ScaleTableViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 769FFCB155F92B15500135BC /* libPods-ScaleTableViewTests.a */; };
+		872AA5B4C6E79952FCE9FD92 /* libPods-ScaleTableViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3808CE9C335B1D80B44993A /* libPods-ScaleTableViewUITests.a */; };
+		B13A09EA1DE1CE6F00700DE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A09E91DE1CE6F00700DE6 /* main.m */; };
+		B13A09ED1DE1CE6F00700DE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A09EC1DE1CE6F00700DE6 /* AppDelegate.m */; };
+		B13A09F01DE1CE6F00700DE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A09EF1DE1CE6F00700DE6 /* ViewController.m */; };
+		B13A09F31DE1CE6F00700DE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13A09F11DE1CE6F00700DE6 /* Main.storyboard */; };
+		B13A09F51DE1CE6F00700DE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13A09F41DE1CE6F00700DE6 /* Assets.xcassets */; };
+		B13A09F81DE1CE6F00700DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13A09F61DE1CE6F00700DE6 /* LaunchScreen.storyboard */; };
+		B13A0A031DE1CE7000700DE6 /* ScaleTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A0A021DE1CE7000700DE6 /* ScaleTableViewTests.m */; };
+		B13A0A0E1DE1CE7000700DE6 /* ScaleTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A0A0D1DE1CE7000700DE6 /* ScaleTableViewUITests.m */; };
+		B13A0A1D1DE1CFB700700DE6 /* ScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A0A1C1DE1CFB700700DE6 /* ScaleViewController.m */; };
+		B13A0A231DE1EEB500700DE6 /* UIView+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A0A221DE1EEB500700DE6 /* UIView+Base.m */; };
+		B13A0A261DE206CB00700DE6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A0A251DE206CB00700DE6 /* Person.m */; };
+		B13A0A291DE2072900700DE6 /* NSObject+Runtimer.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A0A281DE2072900700DE6 /* NSObject+Runtimer.m */; };
+		B13A0A2B1DE2957300700DE6 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B13A0A2A1DE2957300700DE6 /* 1.jpg */; };
+		B13A0A2E1DE2970300700DE6 /* UIImageView+Hack.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A0A2D1DE2970300700DE6 /* UIImageView+Hack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B13A09FF1DE1CE7000700DE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B13A09DD1DE1CE6F00700DE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B13A09E41DE1CE6F00700DE6;
+			remoteInfo = ScaleTableView;
+		};
+		B13A0A0A1DE1CE7000700DE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B13A09DD1DE1CE6F00700DE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B13A09E41DE1CE6F00700DE6;
+			remoteInfo = ScaleTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C30C5F57E31B9A5DE84007 /* Pods-ScaleTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleTableView/Pods-ScaleTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		1F9F876656C16F86B6FDB5C5 /* Pods-ScaleTableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleTableViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleTableViewTests/Pods-ScaleTableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		769FFCB155F92B15500135BC /* libPods-ScaleTableViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScaleTableViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B27C8FF024EA8A6FB2E0FD7 /* Pods-ScaleTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleTableView/Pods-ScaleTableView.release.xcconfig"; sourceTree = "<group>"; };
+		A348590ED418BE11B13C15DB /* Pods-ScaleTableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleTableViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleTableViewTests/Pods-ScaleTableViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA0F3CDD562AD25308F8DCA0 /* libPods-ScaleTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScaleTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13A09E51DE1CE6F00700DE6 /* ScaleTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaleTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13A09E91DE1CE6F00700DE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B13A09EB1DE1CE6F00700DE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B13A09EC1DE1CE6F00700DE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B13A09EE1DE1CE6F00700DE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B13A09EF1DE1CE6F00700DE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B13A09F21DE1CE6F00700DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B13A09F41DE1CE6F00700DE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B13A09F71DE1CE6F00700DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B13A09F91DE1CE6F00700DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13A09FE1DE1CE7000700DE6 /* ScaleTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaleTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13A0A021DE1CE7000700DE6 /* ScaleTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleTableViewTests.m; sourceTree = "<group>"; };
+		B13A0A041DE1CE7000700DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13A0A091DE1CE7000700DE6 /* ScaleTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaleTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13A0A0D1DE1CE7000700DE6 /* ScaleTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleTableViewUITests.m; sourceTree = "<group>"; };
+		B13A0A0F1DE1CE7000700DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13A0A1B1DE1CFB700700DE6 /* ScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleViewController.h; sourceTree = "<group>"; };
+		B13A0A1C1DE1CFB700700DE6 /* ScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleViewController.m; sourceTree = "<group>"; };
+		B13A0A211DE1EEB500700DE6 /* UIView+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Base.h"; sourceTree = "<group>"; };
+		B13A0A221DE1EEB500700DE6 /* UIView+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Base.m"; sourceTree = "<group>"; };
+		B13A0A241DE206CB00700DE6 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B13A0A251DE206CB00700DE6 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B13A0A271DE2072900700DE6 /* NSObject+Runtimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtimer.h"; sourceTree = "<group>"; };
+		B13A0A281DE2072900700DE6 /* NSObject+Runtimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtimer.m"; sourceTree = "<group>"; };
+		B13A0A2A1DE2957300700DE6 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		B13A0A2C1DE2970300700DE6 /* UIImageView+Hack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Hack.h"; sourceTree = "<group>"; };
+		B13A0A2D1DE2970300700DE6 /* UIImageView+Hack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Hack.m"; sourceTree = "<group>"; };
+		C3808CE9C335B1D80B44993A /* libPods-ScaleTableViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScaleTableViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B89F9D3C0D27001287135E /* Pods-ScaleTableViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleTableViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleTableViewUITests/Pods-ScaleTableViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8AF9D37A3CEB81328C89018 /* Pods-ScaleTableViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaleTableViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScaleTableViewUITests/Pods-ScaleTableViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B13A09E21DE1CE6F00700DE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A7A13B16043CAC2141A32D /* libPods-ScaleTableView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A09FB1DE1CE7000700DE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658BF199A85EFBED4AD14110 /* libPods-ScaleTableViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A0A061DE1CE7000700DE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872AA5B4C6E79952FCE9FD92 /* libPods-ScaleTableViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C8D90F54B1FCAB05BEF4050 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA0F3CDD562AD25308F8DCA0 /* libPods-ScaleTableView.a */,
+				769FFCB155F92B15500135BC /* libPods-ScaleTableViewTests.a */,
+				C3808CE9C335B1D80B44993A /* libPods-ScaleTableViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B13A09DC1DE1CE6F00700DE6 = {
+			isa = PBXGroup;
+			children = (
+				B13A09E71DE1CE6F00700DE6 /* ScaleTableView */,
+				B13A0A011DE1CE7000700DE6 /* ScaleTableViewTests */,
+				B13A0A0C1DE1CE7000700DE6 /* ScaleTableViewUITests */,
+				B13A09E61DE1CE6F00700DE6 /* Products */,
+				CEB1228DB6E11C3FA97232AD /* Pods */,
+				7C8D90F54B1FCAB05BEF4050 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B13A09E61DE1CE6F00700DE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B13A09E51DE1CE6F00700DE6 /* ScaleTableView.app */,
+				B13A09FE1DE1CE7000700DE6 /* ScaleTableViewTests.xctest */,
+				B13A0A091DE1CE7000700DE6 /* ScaleTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B13A09E71DE1CE6F00700DE6 /* ScaleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B13A09EB1DE1CE6F00700DE6 /* AppDelegate.h */,
+				B13A09EC1DE1CE6F00700DE6 /* AppDelegate.m */,
+				B13A0A211DE1EEB500700DE6 /* UIView+Base.h */,
+				B13A0A221DE1EEB500700DE6 /* UIView+Base.m */,
+				B13A09EE1DE1CE6F00700DE6 /* ViewController.h */,
+				B13A09EF1DE1CE6F00700DE6 /* ViewController.m */,
+				B13A0A2C1DE2970300700DE6 /* UIImageView+Hack.h */,
+				B13A0A2D1DE2970300700DE6 /* UIImageView+Hack.m */,
+				B13A0A1B1DE1CFB700700DE6 /* ScaleViewController.h */,
+				B13A0A1C1DE1CFB700700DE6 /* ScaleViewController.m */,
+				B13A0A241DE206CB00700DE6 /* Person.h */,
+				B13A0A251DE206CB00700DE6 /* Person.m */,
+				B13A0A271DE2072900700DE6 /* NSObject+Runtimer.h */,
+				B13A0A281DE2072900700DE6 /* NSObject+Runtimer.m */,
+				B13A09F11DE1CE6F00700DE6 /* Main.storyboard */,
+				B13A09F41DE1CE6F00700DE6 /* Assets.xcassets */,
+				B13A09F61DE1CE6F00700DE6 /* LaunchScreen.storyboard */,
+				B13A09F91DE1CE6F00700DE6 /* Info.plist */,
+				B13A0A2A1DE2957300700DE6 /* 1.jpg */,
+				B13A09E81DE1CE6F00700DE6 /* Supporting Files */,
+			);
+			path = ScaleTableView;
+			sourceTree = "<group>";
+		};
+		B13A09E81DE1CE6F00700DE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B13A09E91DE1CE6F00700DE6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B13A0A011DE1CE7000700DE6 /* ScaleTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B13A0A021DE1CE7000700DE6 /* ScaleTableViewTests.m */,
+				B13A0A041DE1CE7000700DE6 /* Info.plist */,
+			);
+			path = ScaleTableViewTests;
+			sourceTree = "<group>";
+		};
+		B13A0A0C1DE1CE7000700DE6 /* ScaleTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B13A0A0D1DE1CE7000700DE6 /* ScaleTableViewUITests.m */,
+				B13A0A0F1DE1CE7000700DE6 /* Info.plist */,
+			);
+			path = ScaleTableViewUITests;
+			sourceTree = "<group>";
+		};
+		CEB1228DB6E11C3FA97232AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01C30C5F57E31B9A5DE84007 /* Pods-ScaleTableView.debug.xcconfig */,
+				9B27C8FF024EA8A6FB2E0FD7 /* Pods-ScaleTableView.release.xcconfig */,
+				1F9F876656C16F86B6FDB5C5 /* Pods-ScaleTableViewTests.debug.xcconfig */,
+				A348590ED418BE11B13C15DB /* Pods-ScaleTableViewTests.release.xcconfig */,
+				E0B89F9D3C0D27001287135E /* Pods-ScaleTableViewUITests.debug.xcconfig */,
+				E8AF9D37A3CEB81328C89018 /* Pods-ScaleTableViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B13A09E41DE1CE6F00700DE6 /* ScaleTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13A0A121DE1CE7000700DE6 /* Build configuration list for PBXNativeTarget "ScaleTableView" */;
+			buildPhases = (
+				E18AFF39843BEA6F6D79B9FF /* [CP] Check Pods Manifest.lock */,
+				B13A09E11DE1CE6F00700DE6 /* Sources */,
+				B13A09E21DE1CE6F00700DE6 /* Frameworks */,
+				B13A09E31DE1CE6F00700DE6 /* Resources */,
+				F85C775162E713E5A4457A59 /* [CP] Embed Pods Frameworks */,
+				E8345EA2A09365F1E0E5D870 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScaleTableView;
+			productName = ScaleTableView;
+			productReference = B13A09E51DE1CE6F00700DE6 /* ScaleTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B13A09FD1DE1CE7000700DE6 /* ScaleTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13A0A151DE1CE7000700DE6 /* Build configuration list for PBXNativeTarget "ScaleTableViewTests" */;
+			buildPhases = (
+				1106A6ABF1BA2BEA5675F62E /* [CP] Check Pods Manifest.lock */,
+				B13A09FA1DE1CE7000700DE6 /* Sources */,
+				B13A09FB1DE1CE7000700DE6 /* Frameworks */,
+				B13A09FC1DE1CE7000700DE6 /* Resources */,
+				D6FE094ADB498F97D9DFB4F8 /* [CP] Embed Pods Frameworks */,
+				B17ADFC5D9C6CBF18A0D3A7F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B13A0A001DE1CE7000700DE6 /* PBXTargetDependency */,
+			);
+			name = ScaleTableViewTests;
+			productName = ScaleTableViewTests;
+			productReference = B13A09FE1DE1CE7000700DE6 /* ScaleTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B13A0A081DE1CE7000700DE6 /* ScaleTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13A0A181DE1CE7000700DE6 /* Build configuration list for PBXNativeTarget "ScaleTableViewUITests" */;
+			buildPhases = (
+				6FE53D1120C292F88E876CF5 /* [CP] Check Pods Manifest.lock */,
+				B13A0A051DE1CE7000700DE6 /* Sources */,
+				B13A0A061DE1CE7000700DE6 /* Frameworks */,
+				B13A0A071DE1CE7000700DE6 /* Resources */,
+				652F860D1E10565DA76B775B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B13A0A0B1DE1CE7000700DE6 /* PBXTargetDependency */,
+			);
+			name = ScaleTableViewUITests;
+			productName = ScaleTableViewUITests;
+			productReference = B13A0A091DE1CE7000700DE6 /* ScaleTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B13A09DD1DE1CE6F00700DE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = imo;
+				TargetAttributes = {
+					B13A09E41DE1CE6F00700DE6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B13A09FD1DE1CE7000700DE6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B13A09E41DE1CE6F00700DE6;
+					};
+					B13A0A081DE1CE7000700DE6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B13A09E41DE1CE6F00700DE6;
+					};
+				};
+			};
+			buildConfigurationList = B13A09E01DE1CE6F00700DE6 /* Build configuration list for PBXProject "ScaleTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B13A09DC1DE1CE6F00700DE6;
+			productRefGroup = B13A09E61DE1CE6F00700DE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B13A09E41DE1CE6F00700DE6 /* ScaleTableView */,
+				B13A09FD1DE1CE7000700DE6 /* ScaleTableViewTests */,
+				B13A0A081DE1CE7000700DE6 /* ScaleTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B13A09E31DE1CE6F00700DE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13A09F81DE1CE6F00700DE6 /* LaunchScreen.storyboard in Resources */,
+				B13A0A2B1DE2957300700DE6 /* 1.jpg in Resources */,
+				B13A09F51DE1CE6F00700DE6 /* Assets.xcassets in Resources */,
+				B13A09F31DE1CE6F00700DE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A09FC1DE1CE7000700DE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A0A071DE1CE7000700DE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1106A6ABF1BA2BEA5675F62E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		652F860D1E10565DA76B775B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScaleTableViewUITests/Pods-ScaleTableViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FE53D1120C292F88E876CF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B17ADFC5D9C6CBF18A0D3A7F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScaleTableViewTests/Pods-ScaleTableViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6FE094ADB498F97D9DFB4F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScaleTableViewTests/Pods-ScaleTableViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E18AFF39843BEA6F6D79B9FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8345EA2A09365F1E0E5D870 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScaleTableView/Pods-ScaleTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F85C775162E713E5A4457A59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScaleTableView/Pods-ScaleTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B13A09E11DE1CE6F00700DE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13A0A261DE206CB00700DE6 /* Person.m in Sources */,
+				B13A09F01DE1CE6F00700DE6 /* ViewController.m in Sources */,
+				B13A0A291DE2072900700DE6 /* NSObject+Runtimer.m in Sources */,
+				B13A0A2E1DE2970300700DE6 /* UIImageView+Hack.m in Sources */,
+				B13A09ED1DE1CE6F00700DE6 /* AppDelegate.m in Sources */,
+				B13A09EA1DE1CE6F00700DE6 /* main.m in Sources */,
+				B13A0A1D1DE1CFB700700DE6 /* ScaleViewController.m in Sources */,
+				B13A0A231DE1EEB500700DE6 /* UIView+Base.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A09FA1DE1CE7000700DE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13A0A031DE1CE7000700DE6 /* ScaleTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13A0A051DE1CE7000700DE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13A0A0E1DE1CE7000700DE6 /* ScaleTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B13A0A001DE1CE7000700DE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B13A09E41DE1CE6F00700DE6 /* ScaleTableView */;
+			targetProxy = B13A09FF1DE1CE7000700DE6 /* PBXContainerItemProxy */;
+		};
+		B13A0A0B1DE1CE7000700DE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B13A09E41DE1CE6F00700DE6 /* ScaleTableView */;
+			targetProxy = B13A0A0A1DE1CE7000700DE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B13A09F11DE1CE6F00700DE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B13A09F21DE1CE6F00700DE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B13A09F61DE1CE6F00700DE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B13A09F71DE1CE6F00700DE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B13A0A101DE1CE7000700DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B13A0A111DE1CE7000700DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B13A0A131DE1CE7000700DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01C30C5F57E31B9A5DE84007 /* Pods-ScaleTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScaleTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imo.ScaleTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B13A0A141DE1CE7000700DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B27C8FF024EA8A6FB2E0FD7 /* Pods-ScaleTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScaleTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imo.ScaleTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B13A0A161DE1CE7000700DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F9F876656C16F86B6FDB5C5 /* Pods-ScaleTableViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScaleTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imo.ScaleTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaleTableView.app/ScaleTableView";
+			};
+			name = Debug;
+		};
+		B13A0A171DE1CE7000700DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A348590ED418BE11B13C15DB /* Pods-ScaleTableViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScaleTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imo.ScaleTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaleTableView.app/ScaleTableView";
+			};
+			name = Release;
+		};
+		B13A0A191DE1CE7000700DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B89F9D3C0D27001287135E /* Pods-ScaleTableViewUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ScaleTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imo.ScaleTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScaleTableView;
+			};
+			name = Debug;
+		};
+		B13A0A1A1DE1CE7000700DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8AF9D37A3CEB81328C89018 /* Pods-ScaleTableViewUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ScaleTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imo.ScaleTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScaleTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B13A09E01DE1CE6F00700DE6 /* Build configuration list for PBXProject "ScaleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13A0A101DE1CE7000700DE6 /* Debug */,
+				B13A0A111DE1CE7000700DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13A0A121DE1CE7000700DE6 /* Build configuration list for PBXNativeTarget "ScaleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13A0A131DE1CE7000700DE6 /* Debug */,
+				B13A0A141DE1CE7000700DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13A0A151DE1CE7000700DE6 /* Build configuration list for PBXNativeTarget "ScaleTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13A0A161DE1CE7000700DE6 /* Debug */,
+				B13A0A171DE1CE7000700DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13A0A181DE1CE7000700DE6 /* Build configuration list for PBXNativeTarget "ScaleTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13A0A191DE1CE7000700DE6 /* Debug */,
+				B13A0A1A1DE1CE7000700DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B13A09DD1DE1CE6F00700DE6 /* Project object */;
+}
