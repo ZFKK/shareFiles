@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  Music
+//
+//  Created by sunkai on 16/11/4.
+//  Copyright © 2016年 imo. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//第三方的头文件
+#import <Masonry.h>
+#import <MBProgressHUD.h> 
+#import <SDImageCache.h>
+#import "UIImageView+WebCache.h"
+#import <MJExtension.h>
+#import "AFNetworking.h"
+#import <BlocksKit.h>
+#import "UIButton+AFNetworking.h"
+#import "MJRefresh.h"
+
+//API 请求数据
+#import "API.h"
+
+//app的宏
+#import "AppMacro.h"
+//通知的宏
+#import "NotificationMacro.h"
+//简化代码的宏
+#import "UtilityMacro.h"
+
+//音频统一的库
+#import <AVFoundation/AVFoundation.h>
+
+//分类
+#import "NSString+String.h"
+#import "UIView+Animation.h"
+#import "UIView+ShowHint.h"
+
+//自定义的下拉刷新
+#import "PMElasticRefresh.h"
+
+#endif /* PrefixHeader_pch */
